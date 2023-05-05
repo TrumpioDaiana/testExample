@@ -1,0 +1,11 @@
+function findValue (arr) {
+    for (let i=0; i< arr.lenght; i++) {
+        let item = arr[i];
+        if (item === 1) {
+            return item
+        }
+    }
+}
+
+Si la entrada de la matriz duplica su tamaño, el peor de los casos también significa que nuestro método debe duplicar el número de iteraciones que buscan el item.
+Sin embargo, en el mejor de los casos, el valor que estamos buscando será el primer elemento de la matriz. 

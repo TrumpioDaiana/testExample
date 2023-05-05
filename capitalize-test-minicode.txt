@@ -1,0 +1,22 @@
+import capitalize from './capitalize';
+
+test ('"test" deberia ser "Test"', () => {
+    expect(capitalize('test')).toBe('Test');
+});
+//caso test
+test ('"Test" deberia ser "Test"',() => {
+    expect(capitalize('Test')).toBe('Test');
+});
+//caso Test
+test ('"TEST" deberia ser "Test"', () => {
+    expect(capitalize('Test')).toBe('Test');
+});
+test ('"more that one word" deberia ser "More that one word"',() => {
+    expect(capitalize('more that one word')).toBe('More that one word');
+});
+test ('"21dai$05" deberia ser "21Dai$05"',() => {
+    expect(capitalize('21dai$05')).toBe('21Dai$05');
+});
+test ('"21Dai$05" deberia ser "21Dai$05"',() => {
+    expect(capitalize('21Dai$05')).toBe('21Dai$05');
+});

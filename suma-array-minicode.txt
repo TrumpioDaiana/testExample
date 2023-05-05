@@ -1,0 +1,11 @@
+function sumaArray (arr) {
+    const copyArr = arr.slice();
+    let suma = 0;
+    copyArr.forEach((numer) => {
+        suma += number;
+    });
+    return suma;
+}
+
+//forEach ciclo que itera sobre la matriz
+//copyArr contiene una copia de la matriz arr

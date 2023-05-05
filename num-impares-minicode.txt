@@ -1,0 +1,11 @@
+function numimpares (maxNum) {
+    let numero = 1;
+
+    while (numero < maxNum) {
+        if (numero %2 !== 0) {
+            console.log (numero);
+        }
+        numero+=1;
+    }
+}
+
